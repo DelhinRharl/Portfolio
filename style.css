@@ -1,0 +1,164 @@
+.section1 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+  position: absolute;
+  width: 375px;
+  height: inherit;
+  top: 92px;
+  margin-left: -8px;
+  background: url(./Images/background.png);
+  background-repeat: no-repeat;
+}
+
+.images .b1 {
+  margin-top: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header {
+  display: flex;
+}
+
+.topNav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  margin: 0;
+  margin-left: 10px;
+  right: 30px;
+  top: calc(50% - 40px / 2);
+  position: static;
+  width: 76px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #6070ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(30, 255, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+.text1 {
+  position: static;
+  width: 330px;
+  height: 150px;
+  left: 24px;
+  top: 100px;
+  margin-top: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+  color: #172b4d;
+  margin-left: 10px;
+}
+
+.text2 {
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 60%;
+
+  /* Body / 2 */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.holder {
+  height: 20px;
+  width: 170px;
+  left: 24px;
+  top: 470px;
+  border-radius: 0;
+  margin-top: -5px;
+}
+
+.let {
+  position: static;
+  margin-top: 0;
+  width: 300px;
+  height: 24px;
+  left: 50px;
+  top: 100px;
+
+  /* Body / 2 - Bolder */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #636dc9;
+  margin-left: 10px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  top: 300px;
+  margin-top: 20px;
+  margin-left: -50px;
+  left: 10px;
+}
+
+.vector {
+  display: flex;
+  position: static;
+  left: 20%;
+  right: 20%;
+  top: 20%;
+  bottom: 20%;
+}
+
+.ham {
+  width: 30px;
+  height: 30px;
+  margin-left: 225px;
+}
+
+.socialmedia {
+  position: static;
+  width: 170.17px;
+  height: 20px;
+  left: 240px;
+  top: 600px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 12px 0;
+}

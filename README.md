@@ -1,43 +1,38 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+Portfolio
 
-> One paragraph statement about the project.
+This is the second Microverse Project  for the week. It involves creating a simple none responsive portfolio usiing figma tempalates , HTML and CSS
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Images/Portfolio.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+HTML
+CSS
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+HTML,CSS,Git basics
 ### Setup
-
+Find Template at https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=39%3A546. 
+use this template to work on the project
 ### Install
-
-### Usage
-
+Visual Studio Code Editor
+Web Browser
+Make a clone of the Repository using git@github.com:DelhinRharl/Portfolio.git
 ### Run tests
+create a workflow folder in the repository folder 
+and run .github/workflows/linters.yml
 
-### Deployment
 
 
 
@@ -45,31 +40,10 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@DelhinRharl](https://github.com/DelhinRharl)
+- Twitter: [@tdelhinrharl](https://twitter.com/delhinrharl)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/AffaxedKiprotich)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
