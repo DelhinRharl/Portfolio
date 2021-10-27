@@ -1,10 +1,9 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 Portfolio
 
 This is the second Microverse Project  for the week. It involves creating a simple none responsive portfolio usiing figma tempalates , HTML and CSS
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Images/Portfolio.png)
 
 
 ## Built With
