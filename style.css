@@ -831,16 +831,7 @@ a:hover {
     left: 10px;
 }
 
-.container5 {
-    position: absolute;
-    width: 375px;
-    height: 779px;
-    left: 0;
-    top: 50px;
-    background: #6070ff;
-    border-radius: 36px;
-    margin-top: 0;
-}
+.container6 {}
 
 .resume {
     display: flex;
@@ -1011,77 +1002,4 @@ a:hover {
 
 .skills:hover {
     background-color: #396df2;
-}
-
-.js {
-    background: url(./Images/Frame9.png);
-    background-repeat: no-repeat;
-}
-
-.html {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: 0;
-    position: static;
-    width: 310px;
-    height: 66.72px;
-    left: 12px;
-    top: 12px;
-    background: #f7f7f9;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #253858;
-}
-
-.css {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: 0;
-    position: static;
-    width: 310px;
-    height: 66.72px;
-    left: 12px;
-    top: 12px;
-    background: #f7f7f9;
-    border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #253858;
-}
-
-.EJS {
-    position: static;
-    width: 310px;
-    height: 70px;
-    left: 12px;
-    top: calc(50% - 48px / 2 - 0.36px);
-    border: 1px solid #fff;
-    margin-left: 0;
-}
-
-.EH {
-    position: static;
-    border: 1px solid #fff;
-    margin-left: 0;
-    width: 310px;
-    height: 70px;
-}
-
-.CS {
-    position: static;
-    border: 1px solid #fff;
-    width: 310px;
-    height: 70px;
 }
