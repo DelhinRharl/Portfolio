@@ -299,30 +299,42 @@
 }
 
 .ta1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   border: 1px solid #fff;
   box-sizing: border-box;
   border-radius: 8px;
-  background-color: #ebebff;
-  width: 53px;
-  height: 24px;
+  background-color: #adade9;
+  width: 10px;
+  height: 30px;
+  margin-right: 5px;
 }
 
 .ta2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   border: 1px solid #fff;
   box-sizing: border-box;
   border-radius: 8px;
-  background-color: #ebebff;
-  width: 45px;
-  height: 24px;
+  background-color: #adade9;
+  width: 10px;
+  height: 30px;
+  margin-right: 5px;
 }
 
 .ta3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   border: 1px solid #fff;
   box-sizing: border-box;
   border-radius: 8px;
-  background-color: #ebebff;
-  width: 89px;
-  height: 24px;
+  background-color: #adade9;
+  width: 10px;
+  height: 30px;
+  margin-right: 5px;
 }
 
 .tags li {
@@ -1008,6 +1020,7 @@ a:hover {
   top: calc(50% - 48px / 2 - 0.36px);
   border: 1px solid #fff;
   margin-left: 0;
+  background: url(./Images/EllipseJs.png);
 }
 
 .EH {
@@ -1016,6 +1029,7 @@ a:hover {
   height: 25px;
   border: 1px solid #fff;
   margin-left: 0;
+  background: url(./Images/EllipseH.png);
 }
 
 .CS {
@@ -1024,6 +1038,7 @@ a:hover {
   height: 25px;
   border: 1px solid #fff;
   margin-left: 0;
+  background: url(./Images/EllipseC.png);
 }
 
 .frameworks {
