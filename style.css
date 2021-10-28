@@ -1020,7 +1020,6 @@ a:hover {
   top: calc(50% - 48px / 2 - 0.36px);
   border: 1px solid #fff;
   margin-left: 0;
-  background: url(./Images/EllipseJs.png);
 }
 
 .EH {
@@ -1029,7 +1028,6 @@ a:hover {
   height: 25px;
   border: 1px solid #fff;
   margin-left: 0;
-  background: url(./Images/EllipseH.png);
 }
 
 .CS {
@@ -1037,9 +1035,6 @@ a:hover {
   width: 25px;
   height: 25px;
   border: 1px solid #fff;
-  margin-left: 0;
-  background: url(./Images/EllipseC.png);
-  background-repeat: no-repeat;
 }
 
 .frameworks {
