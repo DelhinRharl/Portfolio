@@ -384,15 +384,17 @@
   flex-direction: column;
   justify-content: flex-start;
   border-style: solid;
-  border-top-left-radius: 2.5rem;
+  border-color: #dfe1e6;
+  border-top-left-radius: 3.5rem;
   margin-top: 3%;
+  margin-left: 0;
+  padding-top: 30%;
 }
 
 .forms {
   width: 100%;
   height: 50%;
-  border-style: solid;
-  border-color: #7f8cff;
+  border: none;
   border-radius: 0.625rem;
   display: flex;
   align-items: center;
@@ -409,6 +411,7 @@ input {
   align-items: center;
   justify-content: center;
   margin: 0;
+  padding: 0;
 }
 
 textarea {
@@ -432,6 +435,11 @@ textarea {
   padding: 0;
 }
 
+.contact h3 {
+  margin: 0;
+  padding: 0;
+}
+
 .context {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -440,8 +448,14 @@ textarea {
   line-height: 1.75rem;
   text-align: center;
   color: #ebebff;
-  margin: 0;
+  margin-top: 1%;
   padding: 0;
+  width: 100%;
+}
+
+.context p {
+  margin: 0;
+  padding-bottom: 5%;
 }
 
 .shape {
@@ -453,7 +467,9 @@ textarea {
   height: 3rem;
   background: #fff;
   border-radius: 0.5rem;
+  border: none;
   align-content: center;
+  margin-top: 5%;
 }
 
 .resumetext:hover {
