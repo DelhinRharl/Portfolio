@@ -29,7 +29,7 @@
 }
 
 .section1 {
-  background-image: url(./images/header-shapesmobile.svg);
+  background-image: url(./Images/header-shapesmobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -376,7 +376,7 @@
   width: 23.4375rem;
   height: 48.6875rem;
   background-color: #6070ff;
-  background-image: url(./images/contactshapes-mobile.svg);
+  background-image: url(./Images/contactshapes-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
   align-items: center;
