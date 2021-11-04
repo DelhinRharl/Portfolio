@@ -612,12 +612,22 @@ textarea {
     height: 57.25rem;
     border-bottom-left-radius: 2.5rem;
     border-bottom-right-radius: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .iamtext {
     width: 48%;
     height: 25%;
     padding: 10%;
+  }
+
+  .listportfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .card1 {
