@@ -1,7 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .main {
   width: 100%;
   padding: 0;
-  background-color: #ebeef3;
+  background-color: #f5f0f0;
+}
+
+.header {
+  background-color: #fff;
 }
 
 .topNav {
@@ -47,14 +56,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 105%;
+  background-color: #fff;
+  border-bottom-left-radius: 10%;
 }
 
 .primarytext {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 3.25rem;
   display: flex;
   align-items: center;
@@ -83,7 +94,7 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 40%;
   height: 10%;
 }
@@ -92,10 +103,19 @@
   display: -ms-grid;
   display: grid;
   padding-left: 5%;
+  justify-content: space-between;
+}
+
+.leftblockm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 4%;
+  margin-left: -10%;
 }
 
 .leftblock {
-  padding-left: 5%;
+  display: none;
 }
 
 .snapshot1 img {
@@ -108,14 +128,13 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  width: 20.4375rem;
-  height: 40.625rem;
+  width: 90%;
+  height: 98%;
   background: #fff;
   border: 0.0625rem solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 1rem;
   padding: 1.25rem;
-  margin-top: 5%;
 }
 
 .card2 {
@@ -123,14 +142,13 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  width: 20.4375rem;
-  height: 40.625rem;
+  width: 90%;
+  height: 98%;
   background: #fff;
   border: 0.0625rem solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 1rem;
   padding: 1.25rem;
-  margin-top: 5%;
 }
 
 .card3 {
@@ -138,14 +156,13 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  width: 20.4375rem;
-  height: 40.625rem;
+  width: 90%;
+  height: 98%;
   background: #fff;
   border: 0.0625rem solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 1rem;
   padding: 1.25rem;
-  margin-top: 5%;
 }
 
 .card4 {
@@ -153,14 +170,13 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 20.4375rem;
-  height: 40.625rem;
+  width: 90%;
+  height: 98%;
   background: #fff;
   border: 0.0625rem solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 1rem;
   padding: 1.25rem;
-  margin-top: 5%;
 }
 
 .tonics {
@@ -170,7 +186,7 @@
   font-size: 2rem;
   line-height: 2rem;
   color: #172b4d;
-  margin: 0;
+  margin: -1%;
   padding: 0;
 }
 
@@ -183,6 +199,7 @@
   list-style: none;
   height: 100%;
   width: 100%;
+  margin-left: -7%;
 }
 
 .roletext {
@@ -190,7 +207,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 0.8125rem;
-  line-height: 16px;
+  line-height: 1rem;
   color: #7a869a;
 }
 
@@ -216,6 +233,10 @@
   margin-top: 0.9375rem;
 }
 
+.shape {
+  margin-top: 40%;
+}
+
 .daily {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -231,13 +252,14 @@
   padding: 0;
   list-style: none;
   justify-content: space-between;
-  width: 60%;
+  width: 100%;
 }
 
 .last li {
   list-style: none;
   display: flex;
   flex-direction: column;
+  margin-left: 1.25rem;
 }
 
 .tags ul li {
@@ -256,7 +278,7 @@
   height: 1.5rem;
   background: #ebebff;
   border-radius: 0.5rem;
-  margin: 5%;
+  margin-bottom: 10%;
 }
 
 .see {
@@ -335,6 +357,14 @@
   color: #6b7f81;
 }
 
+.about {
+  width: 95%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 2%;
+  margin-left: 0%;
+}
+
 .langcontainer {
   height: 1.5rem;
   font-family: 'Poppins', sans-serif;
@@ -381,6 +411,10 @@
   margin-bottom: 3%;
 }
 
+.subcontainer {
+  display: none;
+}
+
 .arrow1 {
   width: 0.625rem;
   height: 0.625rem;
@@ -397,8 +431,8 @@
 }
 
 .cont7 {
-  width: 23.4375rem;
-  height: 48.6875rem;
+  width: 100%;
+  height: 100%;
   background-color: #6070ff;
   background-image: url(./Images/contactshapes-mobile.svg);
   background-size: cover;
@@ -406,13 +440,13 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   border-style: solid;
   border-color: #dfe1e6;
   border-top-left-radius: 3.5rem;
   margin-top: 3%;
   margin-left: 0;
-  padding-top: 7.5rem;
+  padding-top: 5.5rem;
 }
 
 .forms {
@@ -482,10 +516,6 @@ textarea {
   padding-bottom: 5%;
 }
 
-.shape {
-  padding-top: 15%;
-}
-
 .resumetext {
   width: 8.75rem;
   height: 3rem;
@@ -516,6 +546,11 @@ textarea {
 }
 
 @media screen and (min-width: 993px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
   .main {
     display: flex;
     flex-direction: column;
@@ -526,15 +561,15 @@ textarea {
 
   .topNav {
     position: fixed;
-    width: 95%;
-    height: 4.375rem;
+    height: 7%;
+    width: 98%;
     display: flex;
     justify-content: space-between;
     border-bottom-right-radius: 1.25rem;
     border-bottom-left-radius: 1.25rem;
     border: #d6d9f7;
     background-color: #fff;
-    margin-left: 2.5%;
+    margin-left: 0.5%;
   }
 
   .ham img {
@@ -573,7 +608,7 @@ textarea {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #fff;
-    width: 73%;
+    width: 100%;
     height: 57.25rem;
     border-bottom-left-radius: 2.5rem;
     border-bottom-right-radius: 2.5rem;
@@ -588,8 +623,8 @@ textarea {
   .card1 {
     display: flex;
     flex-direction: row;
-    height: 31rem;
-    width: 72.25rem;
+    height: 75%;
+    width: 70%;
     background: #fff;
     border: 0.0625rem solid#DFE1E6;
     border-radius: 1.5rem;
@@ -604,8 +639,8 @@ textarea {
   }
 
   .card2 {
-    height: 31rem;
-    width: 72.25rem;
+    height: 80%;
+    width: 70%;
     display: flex;
     flex-direction: row-reverse;
     background: #fff;
@@ -623,8 +658,8 @@ textarea {
   }
 
   .card3 {
-    height: 31rem;
-    width: 72.25rem;
+    height: 80%;
+    width: 70%;
     border-radius: 1.5rem;
     display: flex;
     flex-direction: row;
@@ -641,8 +676,8 @@ textarea {
   }
 
   .card4 {
-    height: 31rem;
-    width: 72.25rem;
+    height: 80%;
+    width: 70%;
     border-radius: 1.5rem;
     display: flex;
     flex-direction: row-reverse;
@@ -658,15 +693,99 @@ textarea {
     cursor: pointer;
   }
 
+  .mediaicons ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: 40%;
+    height: 10%;
+  }
+
+  .leftblockm {
+    display: none;
+  }
+
+  .leftblock {
+    padding-left: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .tonics {
+    width: 100%;
+    margin-left: 4%;
+  }
+
+  .tonic {
+    width: 60%;
+    margin-left: -3%;
+  }
+
+  .frame1 {
+    margin-left: 6%;
+  }
+
+  .tags ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: -5%;
+  }
+
+  .tags ul li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.6rem;
+    line-height: 1rem;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    width: 3.3125rem;
+    height: 1.5rem;
+    background: #ebebff;
+    border-radius: 0.5rem;
+    margin: 5%;
+  }
+
+  .snapshot1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+    border-radius: 15%;
+  }
+
   .aboutcontainer {
     background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 50%;
-    border-radius: 1.25rem;
-    margin-top: 2%;
+    height: 100%;
+  }
+
+  .partone1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .iamtext2 {
@@ -675,16 +794,17 @@ textarea {
     padding: 5%;
   }
 
+  .subcontainer1 {
+    display: none;
+  }
+
   .subcontainer {
-    width: 35.6%;
-    border-radius: 1.5rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: rgb(255, 255, 255);
-    border: 0.0625rem solid #fff;
-    padding-left: 0;
-    padding-top: 2%;
+    background: #fff;
+    padding: 5%;
   }
 
   .languages {
@@ -724,11 +844,12 @@ textarea {
     flex-direction: row;
     justify-content: center;
     list-style: none;
+    margin-left: -55%;
   }
 
   .EJS,
   .EH {
-    margin-right: 0.3125rem;
+    margin-right: 0.625rem;
   }
 
   .frameworks {
@@ -806,8 +927,8 @@ textarea {
   }
 
   .cont7 {
-    width: 90rem;
-    height: 52.875rem;
+    width: 100%;
+    height: 100%;
     background-color: #6070ff;
     background-image: url(./Images/contact\ form\ background\ shapes.svg);
     background-size: contain;
@@ -819,7 +940,7 @@ textarea {
     border-style: solid;
     border-color: #dfe1e6;
     border-top-left-radius: 12.5rem;
-    margin-top: 3%;
+    margin-top: 0;
     margin-left: 0;
     padding-top: 7.5rem;
   }
@@ -889,7 +1010,7 @@ textarea {
     color: #ebebff;
     margin-top: 1%;
     padding: 0;
-    width: 100%;
+    width: 50%;
   }
 
   .context p {
@@ -898,7 +1019,7 @@ textarea {
   }
 
   .shape {
-    padding-top: 15%;
+    display: none;
   }
 
   .resumetextt {
