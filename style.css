@@ -35,10 +35,6 @@ body {
   text-decoration: none;
 }
 
-.logo:hover {
-  transform: rotate(720deg);
-}
-
 .hamburger {
   display: flex;
   flex-direction: row;
@@ -572,6 +568,10 @@ textarea {
     margin-left: 0.5%;
   }
 
+  .logo:hover {
+    font-size: 3.75rem;
+  }
+
   .ham img {
     display: none;
   }
@@ -622,6 +622,8 @@ textarea {
     height: 25%;
     padding: 10%;
     padding-left: 30%;
+    animation-duration: 2s;
+    animation-name: slidein;
   }
 
   .listportfolio {
@@ -647,6 +649,9 @@ textarea {
     border-style: solid;
     border-color: #6070ff;
     cursor: pointer;
+    width: 75%;
+    height: 80%;
+    transition: 2s;
   }
 
   .card2 {
@@ -666,6 +671,9 @@ textarea {
     border-style: solid;
     border-color: #6070ff;
     cursor: pointer;
+    width: 75%;
+    height: 80%;
+    transition: 2s;
   }
 
   .card3 {
@@ -684,6 +692,9 @@ textarea {
     border-style: solid;
     border-color: #6070ff;
     cursor: pointer;
+    width: 75%;
+    height: 80%;
+    transition: 2s;
   }
 
   .card4 {
@@ -702,6 +713,9 @@ textarea {
     border-style: solid;
     border-color: #6070ff;
     cursor: pointer;
+    width: 75%;
+    height: 80%;
+    transition: 2s;
   }
 
   .mediaicons ul {
@@ -1099,5 +1113,17 @@ textarea {
 
   .resumetext:disabled {
     color: #6b7f81;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 }
