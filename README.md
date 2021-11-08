@@ -13,6 +13,10 @@ This is the second Microverse Project  for the week. It involves creating a simp
 HTML
 CSS
 
+## Live Demo
+
+[Live Demo Link](https://delhinrharl.github.io/Portfolio/
+)
 
 ## Getting Started
 
