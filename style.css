@@ -29,7 +29,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070ff;
+  color: #192ddd;
   justify-content: space-between;
   width: 100%;
   text-decoration: none;
@@ -282,14 +282,14 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 1.0625rem;
-  color: #2856d6;
+  color: #040918;
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.07em;
   background-color: transparent;
   border: 0.0625rem;
   border-style: solid;
-  border-color: #4141bd;
+  border-color: #000;
   border-radius: 0.5rem;
   width: 8.25rem;
   height: 2.5rem;
@@ -297,12 +297,12 @@ body {
 }
 
 .see:hover {
-  background-color: #635ccc;
+  background-color: #2017a0;
   color: #fff;
 }
 
 .see:active {
-  background-color: rgb(7, 21, 148);
+  background-color: rgb(0, 1, 5);
   transition: 0.5s;
   color: #fff;
 }
@@ -315,41 +315,40 @@ body {
   color: #6b7f81;
 }
 
-.btntext {
+.btntextt {
+  width: 8rem;
+  height: 3rem;
+  color: #000;
+  font-size: 17px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.0625rem;
-  color: #2856d6;
-  line-height: 1.5rem;
-  text-align: center;
-  letter-spacing: 0.07em;
-  background-color: transparent;
-  border: 0.0625rem;
-  border-style: solid;
-  border-color: #4141bd;
+  background: #fff;
   border-radius: 0.5rem;
-  width: 11.25rem;
-  height: 2.5rem;
-  margin-bottom: 2%;
+  border-style: solid;
+  border-color: #000107;
+  align-content: center;
+  margin-top: 5%;
 }
 
-.btntext:hover {
-  background-color: #635ccc;
+.btntextt:hover {
+  background-color: #000;
   color: #fff;
+  border: none;
 }
 
-.btntext:active {
-  background-color: rgb(7, 21, 148);
+.btntextt:active {
+  background-color: rgb(0, 0, 0);
   transition: 0.5s;
   color: #fff;
+  border: none;
 }
 
-.btntext::after {
+.btntextt::after {
   background-color: rgb(7, 21, 148);
 }
 
-.btntext:disabled {
+.btntextt:disabled {
   color: #6b7f81;
 }
 
@@ -523,12 +522,12 @@ textarea {
 }
 
 .resumetext:hover {
-  background-color: #635ccc;
+  background-color: #0c0566;
   color: #fff;
 }
 
 .resumetext:active {
-  background-color: rgb(7, 21, 148);
+  background-color: rgb(0, 0, 0);
   transition: 0.5s;
   color: #fff;
 }
@@ -647,8 +646,9 @@ textarea {
 
   .card1:hover {
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #1a2697;
     cursor: pointer;
+    border: 0.125rem;
     width: 75%;
     height: 80%;
     transition: 2s;
@@ -669,7 +669,8 @@ textarea {
 
   .card2:hover {
     border-style: solid;
-    border-color: #6070ff;
+    border: 0.125rem;
+    border-color: #1a2697;
     cursor: pointer;
     width: 75%;
     height: 80%;
@@ -690,7 +691,8 @@ textarea {
 
   .card3:hover {
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #14229b;
+    border: 0.125rem;
     cursor: pointer;
     width: 75%;
     height: 80%;
@@ -711,7 +713,8 @@ textarea {
 
   .card4:hover {
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #1a2697;
+    border: 0.125rem;
     cursor: pointer;
     width: 75%;
     height: 80%;
@@ -817,6 +820,42 @@ textarea {
     width: 48%;
     height: 25%;
     padding: 5%;
+  }
+
+  .btntextt {
+    width: 10.75rem;
+    height: 3rem;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    background: #fff;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #2334f0;
+    align-content: center;
+    margin-top: 5%;
+  }
+
+  .btntextt:hover {
+    background-color: #000;
+    color: #fff;
+    border: none;
+  }
+
+  .btntextt:active {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+    color: #fff;
+  }
+
+  .btntextt::after {
+    background-color: rgb(7, 21, 148);
+  }
+
+  .btntextt:disabled {
+    color: #6b7f81;
   }
 
   .subcontainer1 {
@@ -1047,57 +1086,27 @@ textarea {
     display: none;
   }
 
-  .resumetextt {
+  .resumetext {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.0625rem;
-    color: #2856d6;
+    color: #000;
     line-height: 1.5rem;
     text-align: center;
     letter-spacing: 0.07em;
-    background-color: transparent;
+    background-color: #fff;
     border: 0.0625rem;
     border-style: solid;
-    border-color: #4141bd;
+    border-color: #061b92;
     border-radius: 0.5rem;
     width: 11.25rem;
     height: 2.5rem;
     margin-top: 3%;
   }
 
-  .resumetextt:hover {
-    background-color: #635ccc;
-    color: #fff;
-  }
-
-  .resumetextt:active {
-    background-color: rgb(7, 21, 148);
-    transition: 0.5s;
-    color: #fff;
-  }
-
-  .resumetextt::after {
-    background-color: rgb(7, 21, 148);
-  }
-
-  .resumetextt:disabled {
-    color: #6b7f81;
-  }
-
-  .resumetext {
-    width: 8.75rem;
-    height: 3rem;
-    background: #fff;
-    border-radius: 0.5rem;
-    border-style: solid;
-    border: #6070ff;
-    align-content: center;
-    margin-top: 5%;
-  }
-
   .resumetext:hover {
-    background-color: #635ccc;
+    background-color: #000;
     color: #fff;
   }
 
@@ -1125,5 +1134,14 @@ textarea {
       margin-left: 0%;
       width: 100%;
     }
+  }
+
+  button {
+    color: black;
+    font-size: 17px;
+  }
+
+  button:active {
+    border: none;
   }
 }
