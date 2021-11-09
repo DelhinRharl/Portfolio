@@ -29,7 +29,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #6070ff;
+    color: #192ddd;
     justify-content: space-between;
     width: 100%;
     text-decoration: none;
@@ -118,8 +118,6 @@ body {
     width: 100%;
     height: 100%;
 }
-
-
 
 .card1 {
     display: flex;
@@ -318,35 +316,39 @@ body {
 }
 
 .btntextt {
-        width: 8rem;
-        height: 3rem;
-        color: #000000;
-        font: size 17px;
-        background: #fff;
-        border-radius: 0.5rem;
-        border-style: solid;
-        border-color: #000107;
-        align-content: center;
-        margin-top: 5%;
-        font-size: 15px;
-    }
-    .btntextt:hover {
-        background-color: #000000;
-        color: #fff;
-        border: none;
-    }
-    .btntextt:active {
-        background-color: rgb(0, 0, 0);
-        transition: 0.5s;
-        color: #fff;
-        border: none;
-    }
-    .btntextt:after {
-        background-color: rgb(7, 21, 148);
-    }
-    .btntextt:disabled {
-        color: #6b7f81;
-    }
+    width: 8rem;
+    height: 3rem;
+    color: #000000;
+    font: size 17px;
+    background: #fff;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #000107;
+    align-content: center;
+    margin-top: 5%;
+    font-size: 15px;
+}
+
+.btntextt:hover {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+}
+
+.btntextt:active {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+    color: #fff;
+    border: none;
+}
+
+.btntextt:after {
+    background-color: rgb(7, 21, 148);
+}
+
+.btntextt:disabled {
+    color: #6b7f81;
+}
 
 .about {
     width: 95%;
@@ -630,8 +632,9 @@ textarea {
     }
     .card1:hover {
         border-style: solid;
-        border-color: #6070ff;
+        border-color: #1a2697;
         cursor: pointer;
+        border: 0.125rem;
         width: 75%;
         height: 80%;
         transition: 2s;
@@ -650,7 +653,8 @@ textarea {
     }
     .card2:hover {
         border-style: solid;
-        border-color: #6070ff;
+        border: 0.125rem;
+        border-color: #1a2697;
         cursor: pointer;
         width: 75%;
         height: 80%;
@@ -669,7 +673,8 @@ textarea {
     }
     .card3:hover {
         border-style: solid;
-        border-color: #6070ff;
+        border-color: #14229b;
+        border: 0.125rem;
         cursor: pointer;
         width: 75%;
         height: 80%;
@@ -688,7 +693,8 @@ textarea {
     }
     .card4:hover {
         border-style: solid;
-        border-color: #6070ff;
+        border-color: #1a2697;
+        border: 0.125rem;
         cursor: pointer;
         width: 75%;
         height: 80%;
@@ -1080,13 +1086,11 @@ textarea {
             width: 100%;
         }
     }
-
-  button {
-    color:black;
-    font-size: 17px;
-  }
-
-  button:active {
-    border: none;
-  }
+    button {
+        color: black;
+        font-size: 17px;
+    }
+    button:active {
+        border: none;
+    }
 }
