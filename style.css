@@ -119,10 +119,7 @@ body {
     height: 100%;
 }
 
-button {
-  color:black;
-  font-size: 17px;
-}
+
 
 .card1 {
     display: flex;
@@ -801,20 +798,21 @@ textarea {
         background: #fff;
         border-radius: 0.5rem;
         border-style: solid;
-        border-color: #4f5dec;
+        border-color: #2334f0;
         align-content: center;
         margin-top: 5%;
     }
     .btntextt:hover {
-        background-color: #0c0566;
+        background-color: #000000;
         color: #fff;
+        border: none;
     }
     .btntextt:active {
         background-color: rgb(0, 0, 0);
         transition: 0.5s;
         color: #fff;
     }
-    .btntextt::after {
+    .btntextt:after {
         background-color: rgb(7, 21, 148);
     }
     .btntextt:disabled {
@@ -1090,4 +1088,14 @@ textarea {
             width: 100%;
         }
     }
+
+  button {
+    color:black;
+    font-size: 17px;
+  }
+
+  button:active {
+    color:white;
+    border: none;
+  }
 }
