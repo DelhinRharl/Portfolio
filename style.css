@@ -282,7 +282,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 1.0625rem;
-    color: #2856d6;
+    color: #040814;
     line-height: 1.5rem;
     text-align: center;
     letter-spacing: 0.07em;
@@ -315,6 +315,8 @@ body {
     color: #6b7f81;
 }
 
+.see:focus {}
+
 .btntext {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -335,7 +337,7 @@ body {
 }
 
 .btntext:hover {
-    background-color: #0c056b;
+    background-color: #0e0861;
     color: #fff;
 }
 
@@ -1019,7 +1021,7 @@ textarea {
         font-style: normal;
         font-weight: 500;
         font-size: 1.0625rem;
-        color: #2856d6;
+        color: #000000;
         line-height: 1.5rem;
         text-align: center;
         letter-spacing: 0.07em;
@@ -1053,7 +1055,7 @@ textarea {
         background: #fff;
         border-radius: 0.5rem;
         border-style: solid;
-        border: #6070ff;
+        border: #0819af;
         align-content: center;
         margin-top: 5%;
     }
