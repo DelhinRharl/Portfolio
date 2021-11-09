@@ -282,7 +282,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 1.0625rem;
-    color: #040814;
+    color: #040918;
     line-height: 1.5rem;
     text-align: center;
     letter-spacing: 0.07em;
@@ -792,6 +792,7 @@ textarea {
     .btntextt {
         width: 10.75rem;
         height: 3rem;
+        color: #000000;
         background: #fff;
         border-radius: 0.5rem;
         border-style: solid;
