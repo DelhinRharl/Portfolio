@@ -119,6 +119,11 @@ body {
     height: 100%;
 }
 
+button {
+  color:black;
+  font-size: 17px;
+}
+
 .card1 {
     display: flex;
     flex-direction: column;
