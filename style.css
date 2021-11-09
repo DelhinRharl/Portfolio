@@ -320,7 +320,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 1.0625rem;
-    color: #2856d6;
+    color: #000000;
     line-height: 1.5rem;
     text-align: center;
     letter-spacing: 0.07em;
@@ -335,7 +335,7 @@ body {
 }
 
 .btntext:hover {
-    background-color: #0d0575;
+    background-color: #0c056b;
     color: #fff;
 }
 
@@ -523,12 +523,12 @@ textarea {
 }
 
 .resumetext:hover {
-    background-color: #635ccc;
+    background-color: #0c0566;
     color: #fff;
 }
 
 .resumetext:active {
-    background-color: rgb(7, 21, 148);
+    background-color: rgb(0, 0, 0);
     transition: 0.5s;
     color: #fff;
 }
@@ -786,6 +786,31 @@ textarea {
         width: 48%;
         height: 25%;
         padding: 5%;
+    }
+    .btntextt {
+        width: 10.75rem;
+        height: 3rem;
+        background: #fff;
+        border-radius: 0.5rem;
+        border-style: solid;
+        border-color: #4f5dec;
+        align-content: center;
+        margin-top: 5%;
+    }
+    .btntextt:hover {
+        background-color: #0c0566;
+        color: #fff;
+    }
+    .btntextt:active {
+        background-color: rgb(0, 0, 0);
+        transition: 0.5s;
+        color: #fff;
+    }
+    .btntextt::after {
+        background-color: rgb(7, 21, 148);
+    }
+    .btntextt:disabled {
+        color: #6b7f81;
     }
     .subcontainer1 {
         display: none;
