@@ -291,7 +291,7 @@ body {
     background-color: transparent;
     border: 0.0625rem;
     border-style: solid;
-    border-color: #4141bd;
+    border-color: #000000;
     border-radius: 0.5rem;
     width: 8.25rem;
     height: 2.5rem;
@@ -331,7 +331,7 @@ body {
     background-color: transparent;
     border: 0.0625rem;
     border-style: solid;
-    border-color: #4141bd;
+    border-color: #030307;
     border-radius: 0.5rem;
     width: 11.25rem;
     height: 2.5rem;
@@ -795,10 +795,15 @@ textarea {
         width: 10.75rem;
         height: 3rem;
         color: #000000;
+        font: size 17px;
         background: #fff;
         border-radius: 0.5rem;
         border-style: solid;
+<<<<<<< HEAD
         border-color: #2334f0;
+=======
+        border-color: #000000;
+>>>>>>> ad580b857d0f449a0c876032c9bdc7bd95ee6674
         align-content: center;
         margin-top: 5%;
     }
@@ -1032,7 +1037,7 @@ textarea {
         background-color: transparent;
         border: 0.0625rem;
         border-style: solid;
-        border-color: #ffffff;
+        border-color: #061b92;
         border-radius: 0.5rem;
         width: 11.25rem;
         height: 2.5rem;
