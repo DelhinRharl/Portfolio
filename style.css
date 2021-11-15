@@ -19,18 +19,21 @@ body {
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    background-color: #fff;
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
 }
 
 .logo {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.875rem;
     line-height: 1.25rem;
     display: flex;
     align-items: center;
     text-align: center;
-    color: #3448f5;
+    color: #606ff5;
     justify-content: space-between;
     width: 40%;
     text-decoration: none;
@@ -48,6 +51,7 @@ body {
     width: 20%;
     height: 100%;
     cursor: pointer;
+    padding: 2%;
 }
 
 .desktop {
@@ -62,50 +66,49 @@ body {
     opacity: 0.9;
     z-index: 1;
     display: none;
+}
 
-}   
+ul li .ruby {
+    display: none;
+}
+
+.last li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.25rem;
+}
+
+.modal ul li a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 2.25rem;
+    line-height: 1rem;
+    justify-content: space-between;
+}
 
 .modal ul li {
-  display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding-top: 40%;
-        cursor: pointer;
-    }
-    
-    .modal ul li a {
-        font-family: "Poppins", sans-serif;
-        font-style: normal;
-        color: #fff;
-        text-decoration: none;
-        list-style: none;
-        font-size: 2.25rem;
-        line-height: 1rem;
-        justify-content: space-between;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 40%;
+    cursor: pointer;
+}
 
-    .modal ul li {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding-top: 40%;
-        cursor: pointer;
-    }
-
-    .times {
-        font-size: 3rem;
-        position: absolute;
-        float: right;
-        width: 100%;
-        padding: 5%;
-        padding-left: 80%;
-        cursor: pointer;
-        color: #fff;
-    }
-    
-    
+.times {
+    font-size: 3rem;
+    position: absolute;
+    float: right;
+    width: 100%;
+    padding: 5%;
+    padding-left: 80%;
+    cursor: pointer;
+    color: #fff;
+}
 
 .subcontainer {
     display: none;
@@ -203,10 +206,6 @@ body {
 }
 
 .roletext1 {
-    display: none;
-}
-
-.ruby {
     display: none;
 }
 
@@ -348,13 +347,6 @@ body {
     list-style: none;
     justify-content: space-between;
     width: 100%;
-}
-
-.last li {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    margin-left: 1.25rem;
 }
 
 .tags ul li {
@@ -673,7 +665,6 @@ textarea {
         text-decoration: none;
         list-style-type: none;
         justify-content: space-around;
-        text-decoration: none;
         font-family: "Poppins", sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -923,6 +914,7 @@ textarea {
         display: flex;
         justify-content: space-around;
         list-style: none;
+        width: 50%;
     }
     .partone1 {
         width: 100%;
