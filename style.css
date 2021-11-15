@@ -54,6 +54,59 @@ body {
     display: none;
 }
 
+.modalcontainer {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #3d56e4;
+    opacity: 0.9;
+    z-index: 1;
+    display: none;
+
+}   
+
+.modal ul li {
+  display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 40%;
+        cursor: pointer;
+    }
+    
+    .modal ul li a {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        color: #fff;
+        text-decoration: none;
+        list-style: none;
+        font-size: 2.25rem;
+        line-height: 1rem;
+        justify-content: space-between;
+    }
+
+    .modal ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 40%;
+        cursor: pointer;
+    }
+
+    .times {
+        font-size: 3rem;
+        position: absolute;
+        float: right;
+        width: 100%;
+        padding: 5%;
+        padding-left: 80%;
+        cursor: pointer;
+        color: #fff;
+    }
+    
+    
+
 .subcontainer {
     display: none;
 }
