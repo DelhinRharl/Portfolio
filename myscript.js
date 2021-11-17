@@ -1,26 +1,26 @@
-const modal = document.getElementById("mcontainer");
+const modal = document.getElementById('mcontainer');
 
-document.getElementById("hamenu").addEventListener("click", () => {
-    modal.style.display = "flex";
+document.getElementById('hamenu').addEventListener('click', () => {
+  modal.style.display = 'flex';
 });
 
-const close = document.getElementById("times");
-close.onclick = function() {
-    modal.style.display = "none";
+const close = document.getElementById('times');
+close.onclick = function () {
+  modal.style.display = 'none';
 };
 
-const portfoliopage = document.getElementById("portfoliopage");
+const portfoliopage = document.getElementById('portfoliopage');
 
-portfoliopage.onclick = function() {
-    modal.style.display = "none";
+portfoliopage.onclick = function () {
+  modal.style.display = 'none';
 };
-const about = document.getElementById("aboutpage");
+const about = document.getElementById('aboutpage');
 
-about.onclick = function() {
-    modal.style.display = "none";
+about.onclick = function () {
+  modal.style.display = 'none';
 };
-const contact = document.getElementById("contactpage");
+const contact = document.getElementById('contactpage');
 
-contact.onclick = function() {
-    modal.style.display = "none";
+contact.onclick = function () {
+  modal.style.display = 'none';
 };

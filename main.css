@@ -18,7 +18,6 @@ body {
 #leftblock {
   padding: 3%;
   width: 80%;
-  /* height: 90vh; */
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
@@ -146,6 +145,7 @@ h3 {
   #leftblock {
     padding: 3%;
     width: 80%;
+
     /* height: 90vh; */
     display: flex;
     flex-direction: column;
@@ -170,7 +170,7 @@ h3 {
     grid-template-columns: 3fr 1fr;
     width: 100%;
     padding-right: 0%;
-   }
+  }
 
   #techbtn {
     display: flex;
@@ -188,9 +188,10 @@ h3 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
-}
-#snaps {
+  }
+
+  #snaps {
     width: 80%;
     height: 70%;
-}
+  }
 }
