@@ -17,7 +17,7 @@ portfoliopage.onclick = function () {
 const about = document.getElementById('aboutpage');
 
 about.onclick = function () {
-  modal.style.display = 'none';
+  modal.style.display = 'none ';
 };
 const contact = document.getElementById('contactpage');
 
