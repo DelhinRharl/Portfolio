@@ -1,38 +1,37 @@
-const names = document.getElementById("name");
-const emails = document.getElementById("email");
-const text = document.getElementById("texta");
-const submit = document.getElementById("submit");
+const names = document.getElementById('name');
+const emails = document.getElementById('email');
+const text = document.getElementById('texta');
 
 const userInfo = {
-    Name: names,
-    Email: emails,
-    Message: text,
+  Name: names,
+  Email: emails,
+  Message: text,
 };
 
-names.addEventListener("input", function(e) {
-    e.preventDefault();
+names.addEventListener('input', (e) => {
+  e.preventDefault();
 
-    userInfo.Name = names.value;
+  userInfo.Name = names.value;
 
-    localStorage.setItem("userInfo", JSON.stringify(userInfo));
+  localStorage.setItem('userInfo', JSON.stringify(userInfo));
 });
 
-emails.addEventListener("input", function(e) {
-    e.preventDefault();
+emails.addEventListener('input', (e) => {
+  e.preventDefault();
 
-    userInfo.Email = emails.value;
+  userInfo.Email = emails.value;
 
-    localStorage.setItem("userInfo", JSON.stringify(userInfo));
+  localStorage.setItem('userInfo', JSON.stringify(userInfo));
 });
-text.addEventListener("input", function(e) {
-    e.preventDefault();
+text.addEventListener('input', (e) => {
+  e.preventDefault();
 
-    userInfo.Message = text.value;
+  userInfo.Message = text.value;
 
-    localStorage.setItem("userInfo", JSON.stringify(userInfo));
+  localStorage.setItem('userInfo', JSON.stringify(userInfo));
 });
 
-const data = JSON.parse(localStorage.getItem("userInfo"));
+const data = JSON.parse(localStorage.getItem('userInfo'));
 userInfo.Name = data.Name;
 userInfo.Email = data.Email;
 userInfo.Message = data.Message;
