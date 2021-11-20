@@ -196,6 +196,22 @@ ul li .ruby {
   height: 100%;
 }
 
+#small {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #000;
+}
+
+.showMessage {
+  display: none;
+}
+
+.showSuccess {
+  display: none;
+}
+
 .snapshot2 {
   display: none;
 }
